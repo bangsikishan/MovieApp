@@ -1,0 +1,66 @@
+/* Bootstrap Icon */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+/* Google Font Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Roboto:wght@100;300;400;700&display=swap');
+
+/* Google Font Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.intro {
+    max-width: 500px;
+    margin: 50px auto;
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: #2f2f2f;
+    text-align: center;
+}
+
+.intro h1 {
+    margin-bottom: 17px;
+}
+
+.form {
+    max-width: 500px;
+    margin: 30px auto;
+}
+
+.form input {
+    width: 480px;
+    padding: 12px 8px;
+    border: 1px solid #cfcfcf;
+    border-radius: 3px;
+    font-family: 'Poppins';
+}
+
+.form input:focus {
+    outline: none;
+}
+
+.result {
+    max-width: 400px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.result .desc {
+    font-family: 'Poppins';
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 7px 0;
+}
+
+.invisible {
+    display: none;
+}
+
+.error {
+    max-width: 500px;
+    margin: 10px auto;
+    font-family: 'Poppins';
+}
