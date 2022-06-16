@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>MovieInfo</title>
+</head>
+<body>
+    <div class="intro">
+        <h1>MovieInfo</h1>
+        <p>Search about your favorite movie</p>
+    </div>
+
+    <div class="form">
+        <form>
+            <input type="text" name="search" id="search" placeholder="Avengers Endgame" required>
+        </form>
+    </div>
+
+    <div class="result invisible">
+        <div>
+            <div class="image">
+                <img src="" alt="movie_img">
+            </div>
+            <div class="desc"></div>
+        </div>
+    </div>
+
+    <div class="error invisible"></div>
+
+    <script src="./scripts/getData.js"></script>
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
